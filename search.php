@@ -42,7 +42,7 @@
        $noresult=false;
     
        echo '<div class="result">
-                 <h3><a href="'. $url .'" class="text-dark">'. $title .'</a> </h3>
+                 <h3><a href="/idis/'. $url .'" class="text-dark">'. $title .'</a> </h3>
                  <p>'. $desc .'</p>
             </div>';
       
