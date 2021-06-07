@@ -136,7 +136,7 @@
          <img src="img/user.jpg" class="mr-2" width="54px" alt="...">
          <div class="media-body">
          <p class="font-weight-bold my-0"> Asked by:'. $row2['user_email'] . ' at ' . $timestamp .'  </p>
-             <h5 class="mt-0"><a class="text-dark" href="threadout.php?threadid='. $id .'">'. $title .'</a></h5>
+             <h5 class="mt-0"><a class="text-dark" href="/idis/threadout.php?threadid='. $id .'">'. $title .'</a></h5>
              <p>'. $desc .'</p>
          </div>
      </div>'; 
