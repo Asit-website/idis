@@ -70,9 +70,9 @@ while($row=mysqli_fetch_assoc($result)){
   <div class="card" style="width: 18rem;">
  <img src="img/card-'. $id .'.jpg " class="card-img-top" alt="image for this category">
  <div class="card-body">
-   <h5 class="card-title"><a href="threads.php?catid='. $id .'">'. $can . '</a></h5>
+   <h5 class="card-title"><a href="/idis/threads.php?catid='. $id .'">'. $can . '</a></h5>
    <p class="card-text">'. substr($desc,0,90).'</p>
-   <a href="threads.php?catid='. $id .'" class="btn btn-primary">view thraed</a>
+   <a href="/idis/threads.php?catid='. $id .'" class="btn btn-primary">view thraed</a>
    </div>
    </div>
  </div>';
